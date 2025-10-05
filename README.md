@@ -2,7 +2,9 @@
 A miniature filesharing script by outtieTV<br />
 <br />
 Requires php 8.4<br />
-extensions required: extinfo and imagick<br />
+extensions required:<br />
+extension=fileinfo<br />
+extension=imagick<br />
 libraries required: image magick<br />
 <br />
 edit php.ini to change max file size and enable upload<br />
